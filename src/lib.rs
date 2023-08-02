@@ -6,6 +6,9 @@ mod foo;
 pub use foo::Bar;
 
 pub fn foo() {
-  let _ = fmt!("...");
+        let _ = fmt!("...");
   println!("Hi");
+  println!(
+    "Hello"
+  );
 }
