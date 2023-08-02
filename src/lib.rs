@@ -11,4 +11,7 @@ pub fn foo() {
   println!(
     "Hello"
   );
+  println!(
+    "World"
+  );
 }
